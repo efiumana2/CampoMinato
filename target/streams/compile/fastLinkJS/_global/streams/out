@@ -1,0 +1,25 @@
+[info] Fast optimizing C:\Users\enrico.fiumana2\OneDrive - Alma Mater Studiorum Università di Bologna\Studio\V - Paradigmi di Programmazione e Sviluppo\Progetto\CampoMinato\target\scala-3.3.4\campominato-fastopt
+[debug] Linker: Compute reachability: 14813 us
+[debug] Linker: Assemble LinkedClasses: 11118 us
+[debug] Linker: 58072 us
+[debug] Optimizer: Batch mode: false
+[debug] Optimizer: Incremental part: 15544 us
+[debug] Optimizer: Elidable constructors: 752 us
+[debug] Optimizer: Optimizing 3 methods.
+[debug] Optimizer: Optimizer part: 6626 us
+[debug] Optimizer: 28925 us
+[debug] Refiner: Compute reachability: 10606 us
+[debug] Refiner: Assemble LinkedClasses: 7003 us
+[debug] Refiner: 18354 us
+[debug] Module Splitter: Calculate Dependency Info: 427 us
+[debug] Module Splitter: Analyze Modules: 97 us
+[debug] Module Splitter: Assemble Modules: 1073 us
+[debug] Module Splitter: 1722 us
+[debug] Emitter: Generate Classes: 12522 us
+[debug] Emitter: Write trees: 977 us
+[debug] Emitter: Class tree cache stats: reused: 598 -- invalidated: 4
+[debug] Emitter: Method tree cache stats: reused: 2328 -- invalidated: 5
+[debug] Emitter: Post transforms: total: 44 -- nested: 29 -- nested avoided: 351
+[debug] Emitter: 22533 us
+[debug] BasicBackend: Write result: 26238 us
+[debug] BasicBackend: total modules: 1; re-written: 1

@@ -1,0 +1,2 @@
+[error] No main module initializer was specified, but scalaJSUseMainModuleInitializer was set to true. You can explicitly specify it either with `mainClass := Some(...)` or with `scalaJSMainModuleInitializer := Some(...)`
+[error] (Compile / scalaJSModuleInitializers) No main module initializer was specified, but scalaJSUseMainModuleInitializer was set to true. You can explicitly specify it either with `mainClass := Some(...)` or with `scalaJSMainModuleInitializer := Some(...)`

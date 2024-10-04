@@ -1,0 +1,10 @@
+[debug] > Exec(fastOptJS, None, None)
+[debug] Evaluating tasks: Compile / fastOptJS
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\enrico.fiumana2\OneDrive - Alma Mater Studiorum Università di Bologna\Studio\V - Paradigmi di Programmazione e Sviluppo\Progetto\CampoMinato\target\scala-3.3.4\classes ...
+[info] done compiling
+[info] Fast optimizing C:\Users\enrico.fiumana2\OneDrive - Alma Mater Studiorum Università di Bologna\Studio\V - Paradigmi di Programmazione e Sviluppo\Progetto\CampoMinato\target\scala-3.3.4\campominato-fastopt
+[debug] Global IR cache stats: reused: 10 -- invalidated: 6 -- trees read: 5
+[debug] Forcing garbage collection...
+[success] Total time: 2 s, completed 1 ott 2024, 18:55:36
+[debug] > Exec(idea-shell, None, None)

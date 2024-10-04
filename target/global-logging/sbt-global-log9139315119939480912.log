@@ -1,0 +1,22 @@
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-linker_2.12/1.16.0/scalajs-linker_2.12-1.16.0.pom
+[info] downloaded https://repo1.maven.org/maven2/org/scala-js/scalajs-linker_2.12/1.16.0/scalajs-linker_2.12-1.16.0.pom
+[info] downloading https://repo1.maven.org/maven2/com/google/javascript/closure-compiler/v20220202/closure-compiler-v20220202.pom
+[info] downloaded https://repo1.maven.org/maven2/com/google/javascript/closure-compiler/v20220202/closure-compiler-v20220202.pom
+[info] downloading https://repo1.maven.org/maven2/com/google/javascript/closure-compiler-main/v20220202/closure-compiler-main-v20220202.pom
+[info] downloaded https://repo1.maven.org/maven2/com/google/javascript/closure-compiler-main/v20220202/closure-compiler-main-v20220202.pom
+[info] downloading https://repo1.maven.org/maven2/com/google/javascript/closure-compiler-parent/v20220202/closure-compiler-parent-v20220202.pom
+[info] downloaded https://repo1.maven.org/maven2/com/google/javascript/closure-compiler-parent/v20220202/closure-compiler-parent-v20220202.pom
+[info] downloading https://repo1.maven.org/maven2/com/google/javascript/closure-compiler/v20220202/closure-compiler-v20220202.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-linker_2.12/1.16.0/scalajs-linker_2.12-1.16.0.jar
+[info] downloaded https://repo1.maven.org/maven2/org/scala-js/scalajs-linker_2.12/1.16.0/scalajs-linker_2.12-1.16.0.jar
+[info] downloaded https://repo1.maven.org/maven2/com/google/javascript/closure-compiler/v20220202/closure-compiler-v20220202.jar
+[info] compiling 1 Scala source to C:\Users\enrico.fiumana2\OneDrive - Alma Mater Studiorum Università di Bologna\Studio\V - Paradigmi di Programmazione e Sviluppo\Progetto\CampoMinato\target\scala-3.3.4\classes ...
+[info] done compiling
+[debug] Global IR cache stats: reused: 0 -- invalidated: 14 -- trees read: 0
+[error] No main module initializer was specified, but scalaJSUseMainModuleInitializer was set to true. You can explicitly specify it either with `mainClass := Some(...)` or with `scalaJSMainModuleInitializer := Some(...)`
+[error] (Compile / scalaJSModuleInitializers) No main module initializer was specified, but scalaJSUseMainModuleInitializer was set to true. You can explicitly specify it either with `mainClass := Some(...)` or with `scalaJSMainModuleInitializer := Some(...)`
+[error] Total time: 3 s, completed 28 set 2024, 22:19:01
+[debug] > Exec(idea-shell, None, None)
