@@ -40,7 +40,7 @@ def placeMines(grid: List[List[Cell]], numMines: Int): List[List[Cell]] = {
   } yield (row, col)
 
   // Seleziona posizioni casuali per piazzare le mine
-  val minePositions = random.shuffle(allPositions).take(numMines)
+  val minePositions = random.shuffle(allPositions).take(numMines) //mescola le posizioni e prende le prime numMines
 
   // Crea una nuova griglia con le mine piazzate
   grid.zipWithIndex.map { case (row, rowIndex) =>           // tupla di 2 valore i: il contenuto e l'indice - Torna una lista
@@ -104,17 +104,17 @@ def renderCell(grid: List[List[Cell]], row: Int, col: Int, cell: Cell): Div = {
     child.text <-- cell.revealed.signal.combineWith(cell.flagged.signal).map {
       case (revealed, flagged) =>
         if (flagged && !revealed) {
-          "🚩"         // Mostra una bandiera se è segnalata ma non ancora rivelata
+          "🚩"                               // Mostra una bandiera se è segnalata ma non ancora rivelata
         } else
           if (revealed) {
             if (cell.hasMine) {
-              "💣"                             // Mostra una mina se la cella è rivelata e contiene una mina
+              "💣"                           // Mostra una mina se la cella è rivelata e contiene una mina
             } else
             {
               if (cell.adjacentMines > 0)
                 cell.adjacentMines.toString   // Mostra il numero di mine adiacenti
               else
-                "0"                        // Mostra 0 se non ci sono mine adiacenti
+                "0"                           // Mostra 0 se non ci sono mine adiacenti
             }
           } else
           {
@@ -146,7 +146,7 @@ def revealCell(grid: List[List[Cell]], row: Int, col: Int): Unit = {
       gameOver.set(true)
       revealAllMines(grid)  // Funzione per rivelare tutte le mine
     } else if (cell.adjacentMines == 0) {
-      revealAdjacentCells(grid, row, col, true) // Non sembra funzionare....
+      revealAdjacentCells(grid, row, col, true)
     }
 
     // Controlla se tutte le celle senza mine sono state rivelate
